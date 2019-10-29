@@ -22,7 +22,7 @@
 		{
 			"title":"Using script syntax",
 			"description":"Read an image from URL and output",
-			"code":"imgObj = imageRead(\"http://cfdocs.org/apple-touch-icon.png\");\r\ncfimage(action=\"writeToBrowser\", source=imgObj);",
+			"code":"imgObj = imageRead(\"https://cfdocs.org/apple-touch-icon.png\");\r\ncfimage(action=\"writeToBrowser\", source=imgObj);",
 			"result":"",
 			"runnable":true
 		}
