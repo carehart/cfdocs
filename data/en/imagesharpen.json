@@ -24,7 +24,7 @@
 		{
 			"title":"Using sharpen member function",
 			"description":"CF11+ Lucee4.5+ Sharpen an image",
-			"code":"imgObj = imageRead(\"http://cfdocs.org/apple-touch-icon.png\");\r\nimgObj.sharpen(2);\r\ncfimage(action=\"writeToBrowser\", source=imgObj);",
+			"code":"imgObj = imageRead(\"https://cfdocs.org/apple-touch-icon.png\");\r\nimgObj.sharpen(2);\r\ncfimage(action=\"writeToBrowser\", source=imgObj);",
 			"result":"",
 			"runnable":true
 		}
